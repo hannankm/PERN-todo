@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 const InputTodo =()=>{
-    const [description, setDescription] = useState(" ");
+    const [description, setDescription] = useState("");
     const onSubmitForm= async(e)=>{
         // so it doesn't refresh
         e.preventDefault();
